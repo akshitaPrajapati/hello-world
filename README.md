@@ -10,6 +10,7 @@ c=a+b
 print(c)
 print(type(a))
 print(type(b))
+print(type(c))
 
 # Taking input 
 x=input('Enter value for x: ')
@@ -17,6 +18,7 @@ y=input('Enter value for y: ')
 z=int(x) + int(y)                   # default input datatype is str in python so we need to specify here
 print(z)
 print(int(x)*int(y))
+print(int(x)/int(y))
 
 # Conditional statements
 if x>y:                             #if else  
